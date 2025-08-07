@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Windows Logo with Flexbox</title>
+  <style>
+    body {
+      background-color: black;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+
+    .logo {
+      display: flex;
+      flex-wrap: wrap; 
+      width: 240px; 
+    }
+
+    .box {
+      width: 100px;
+      height: 100px;
+      margin: 10px;
+    }
+
+    .red { background-color: #F25022; }
+    .green { background-color: #7FBA00; }
+    .blue { background-color: #00A4EF; }
+    .yellow { background-color: #FFB900; }
+  </style>
+</head>
+<body>
+  <div class="logo">
+    <div class="box red"></div>
+    <div class="box green"></div>
+    <div class="box blue"></div>
+    <div class="box yellow"></div>
+  </div>
+</body>
+</html>
